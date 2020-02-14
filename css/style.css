@@ -1,0 +1,283 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    background: white;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+        margin: 0;
+}
+p {
+  margin: 0;  
+}
+
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    background: #edeef2;
+   /* background: url(/image/lift3.jpg) no-repeat center top fixed;*/
+   /* background-size: cover;*/
+    border-radius: 3px;
+    color: black;
+}
+
+
+/* Nav */
+
+
+.block__item {
+    margin: 0;
+    padding: 20px 15px;
+    border-bottom: 3px white solid;
+}
+
+.nav {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    }
+
+
+.nav + .nav {
+    margin-left: 10px; 
+}
+
+.state {
+    background: #5cb85c;
+    color: white;
+}
+
+.state:hover {
+    background: #449d44;
+}
+
+.history {
+    background: #d66363;
+}
+
+.history:hover {
+    background: #d43f3a;
+}
+
+.sensor {
+    background: #b9bbc7;
+    color: white;
+}
+
+.sensor:hover {
+    background: #8f8b8d;
+}
+
+.adress {
+    display: inline-block;
+    border: black 1px solid;
+    padding: 5px;
+    margin-left: 125px;
+    background: white;
+}
+
+.adress span {
+    font-weight: bold;
+}
+
+
+
+
+/* Control    */
+
+
+.control__title {
+    font-size: 20px;
+    text-align: center;
+    padding: 40px 15px 5px 15px;
+}
+
+.control__panel {
+    display: flex;
+    margin-top: 10px; 
+    
+}
+
+.control__block {
+    display: flex;
+    margin: 0 15px 0 15px;
+    
+    
+}
+
+.directory {
+    border-bottom: 1px white solid;
+    padding: 5px 25px;
+    text-align: start;
+    background: rgb(92, 184, 92, .7);
+}
+
+.time {
+    border-bottom: 1px white solid;
+    padding: 5px 25px;
+    text-align: start;
+    background: rgb(92, 184, 92, .7);
+}
+
+.states {
+    border-bottom: 1px white solid;
+    padding: 5px 25px;
+    text-align: start;
+    background: rgb(92, 184, 92, .7);
+}
+
+.bad {
+    background: rgb(245, 198, 203);
+}
+
+.value {
+    text-align: center;
+    border: 1px white solid;
+}
+
+
+.act__block {
+    margin: 0 15px 0 15px;
+}
+
+.act__item {
+    border: 1px black solid;
+    padding: 5px 25px;
+    text-align: center;
+    background: white;
+}
+
+.act {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    background: none;
+    cursor: pointer;
+    border: white 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0 5px 5px;
+    color: white;
+}
+
+.our {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sound{
+    background: #686fe3;
+    width: 90px;
+}
+
+.sound:hover {
+    background: #484fd4;
+}
+
+.act__tel {
+    text-align: end;
+    
+}
+
+.act__par {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.active {
+    background: #5cb85c;
+    width: 190px;
+}
+
+.active:hover {
+    background: #449d44;
+}
+
+.close {
+    background: #d66363;
+    width: 190px;
+}
+
+.close:hover {
+    background: #d43f3a;
+}
+
+.tel {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.tel__cross {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+
+
+/* Detector */
+
+.detector {
+    border: 2px white solid;
+    padding-top: 10px;
+}
+
+.detector__block {
+    display: flex;
+    justify-content: center;
+}
+
+.det__title {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.box {
+    border-bottom: 1px white solid;
+    padding: 5px 60px;
+    text-align: start;
+    background: rgb(92, 184, 92, .7);
+}
+
+.box__h {
+    text-align: center;
+}
+
+.det__box {
+    margin-bottom: 50px;
+}
+
+.badly {
+    background: rgb(245, 198, 203);
+}
+
+
+
+
+
+
+
+

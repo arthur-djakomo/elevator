@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>lift</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <!-- Nav --> 
+   <nav class="nav__block">
+     
+      <div class="container">
+       
+       
+        <div class="block__item">
+            <a href="#" class="nav state">Текущее состояние</a>
+            <a href="#" class="nav history">История событий</a>
+            <a href="#" class="nav sensor">Справочник датчиков</a>
+            <div class="adress">Адрес лифта:     <span>Батицкого_10_п_2</span></div>
+        </div>
+         
+          
+       </div>
+       
+    </nav>  <!-- /Nav -->
+    
+    
+    <!-- Control    -->
+    
+    <div class="control">
+        
+        <div class="container">
+            
+            <h1 class="control__title">Состояние и управление лифтом</h1>
+            
+            <div class="control__panel">
+              
+              <div class="control__block">
+               
+               
+                <div class="directory__block">
+                   <div class="value">Датчик</div>
+                    <div class="directory">
+                        Дверь в лифтовую
+                    </div>
+                    <div class="directory">
+                        Крышка контроллера
+                    </div>
+                    <div class="directory">
+                        Цепочка безопасности
+                    </div>
+                    <div class="directory bad">
+                        Двери шахты
+                    </div>
+                    <div class="directory bad">
+                        Двери кабины
+                    </div>
+                    <div class="directory bad">
+                        Движение лифта
+                    </div>
+                    <div class="directory">
+                        Питание лифта
+                    </div>
+                    <div class="directory">
+                        Питание контроллера
+                    </div>
+                </div>
+                
+                <div class="time__block">
+                   <div class="value">
+                       Время события
+                   </div>
+                    <div class="time">
+                        	Сегодня в 00:06:02
+                    </div>
+                    <div class="time">
+                        	Сегодня в 00:06:02
+                    </div>
+                    <div class="time">	
+                            Сегодня в 00:06:02
+                    </div>
+                    <div class="time bad">
+                            3 минут назад (17:24:57)
+                    </div>
+                    <div class="time bad">
+                            3 минут назад (17:24:57)
+                    </div>
+                    <div class="time bad">
+                            3 минут назад (17:24:57)
+                    </div>   
+                    <div class="time">
+                            Сегодня в 00:06:02
+                    </div>
+                    <div class="time">
+                            10:20:03 30/09/2019
+                    </div>
+                </div>
+                
+                <div class="states__block">
+                   <div class="value">Состояние</div>
+                    <div class="states">Закрыта</div>
+                    <div class="states">Закрыта</div>
+                    <div class="states">ОК</div>
+                    <div class="states bad">Открыты двери</div>
+                    <div class="states bad">Открыты двери</div>
+                    <div class="states bad">Стоит</div>
+                    <div class="states">Есть питание</div>
+                    <div class="states">Есть питание</div>
+                </div>
+                
+            </div>
+            
+            <div class="act__block">
+                
+                <div class="act__item">
+                   <div class="act">
+                       Управление лифтом
+                       <button class="btn close">Выключить</button>
+                   </div>
+                    <div class="act">
+                        Управление освещением
+                        <button class="btn active">Включить</button>
+                    </div>
+                    <div class="act">
+                        Управление компьютером
+                        <button class="btn close">Перезагрузить</button>
+                    </div>                    
+                </div>
+                
+                <div class="our">
+                  <div class="sound__btn">
+                      <div>
+                      <button class="sound btn">Громче</button>
+                      </div>
+                      <div>
+                      <button class="sound btn">Тише</button>
+                      </div>
+                      <div>
+                      <button class="sound btn">
+                      Обнулить
+                      </button>
+                      </div>
+                  </div>
+                  
+                   <div class="act__tel">
+                    <div class="act__par">
+                       <button class="btn active">Позвонить в кабину</button>
+                       <img class="tel" src="image/call-answer.png" alt="">
+                   </div>
+                    <div class="act__par">
+                        <button class="btn active">Позвонить в лифтовую</button>
+                        <img class="tel" src="image/call-answer.png" alt="">
+                    </div>
+                    <div class="act__par">
+                        <button class="btn active">Позвонить на первый этаж</button>
+                        <img class="tel" src="image/call-answer.png" alt="">
+                    </div> 
+                    <div class="act__par">
+                        <button class="btn close">Положить трубку</button>
+                        <img class="tel__cross" src="image/telephone_77981.png" alt="">
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+            
+            </div>
+            
+            
+        </div>
+        
+    </div> <!-- /Control   -->
+    
+   <!-- Detector -->
+   <div class="detector">
+       <div class="container">
+           
+          <h3 class="det__title">История состояния датчиков (последние 10 событий)</h3>
+          
+          <div class="detector__block">
+             
+              <div class="det__box">
+                  <div class="box__h">Дата</div>
+                  <div class="box good">Сегодня в 15:59:23</div>
+                  <div class="box badly">Сегодня в 15:59:23</div>
+                  <div class="box good">Сегодня в 15:46:33</div>
+                  <div class="box badly">Сегодня в 15:46:31</div>
+                  <div class="box good">Сегодня в 15:46:31</div>
+                  <div class="box badly">Сегодня в 15:46:30</div>
+                  <div class="box good">Сегодня в 15:46:30</div>
+                  <div class="box badly">Сегодня в 15:46:28</div>
+                  <div class="box good">Сегодня в 15:46:27</div>
+                  <div class="box badly">Сегодня в 15:46:27</div>
+              </div>
+              
+              <div class="det__box">
+                  <div class="box__h">Описание</div>
+                  <div class="box good">Цепочка безопасности</div>
+                  <div class="box badly">Цепочка безопасности</div>
+                  <div class="box good">Цепочка безопасности</div>
+                  <div class="box badly">Цепочка безопасности</div>
+                  <div class="box good">Цепочка безопасности</div>
+                  <div class="box badly">Цепочка безопасности</div>
+                  <div class="box good">Цепочка безопасности</div>
+                  <div class="box badly">Цепочка безопасности</div>
+                  <div class="box good">Цепочка безопасности</div>
+                  <div class="box badly">Цепочка безопасности</div>
+              </div>
+              
+              <div class="det__box">
+                  <div class="box__h">Состояние</div>
+                  <div class="box good">OK</div>
+                  <div class="box badly">Авария</div>
+                  <div class="box good">OK</div>
+                  <div class="box badly">Авария</div>
+                  <div class="box good">OK</div>
+                  <div class="box badly">Авария</div>
+                  <div class="box good">OK</div>
+                  <div class="box badly">Авария</div>
+                  <div class="box good">OK</div>
+                  <div class="box badly">Авария</div>
+              </div>
+              
+              
+          </div>
+          
+           
+       </div>
+   </div> <!-- /Detector -->
+   
+</body>
+</html>
